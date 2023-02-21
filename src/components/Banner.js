@@ -9,7 +9,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "Frontend Developer", "próximo a Full Stack Developer" ];
+    const toRotate = [ "Frontend Developer" ];
     const period = 2000;
 
     useEffect(() => {
@@ -61,8 +61,9 @@ export const Banner = () => {
                 <TrackVisibility>
                 {({ isVisible }) =>
                     <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                        <span className="tagline">Bienvenido a mi portfolio</span>
-                        <h1>{`Hola! Soy Damián Arrieta`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Developer", "próximo a Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                        <h1>{`Hola! Soy Damián Arrieta.`}
+                        <br/>
+                        <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Developer"]'><span className="wrap">{text}</span></span></h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <div className="social-icon">
                             <a href="#"><i class="bi bi-linkedin text-light"></i></a>
