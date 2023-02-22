@@ -158,7 +158,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-/************ Banner Css ************/
+/* Banner */
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -231,13 +231,13 @@ transition: 0.3s ease-in-out;
   transform: scale(1);
 }
 
-/************ Skills Css ************/
+/* Skills Css */
 .skill {
   padding: 0 0 50px 0;
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #ffffff;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -248,7 +248,7 @@ transition: 0.3s ease-in-out;
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #030303;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
