@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import boy from '../assets/imgs/boy.png';
+import CV from '../assets/DamianArrieta.pdf';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -57,19 +58,21 @@ export const Banner = () => {
                     </div>}
                 </TrackVisibility>
             </Col>
-            <Col xs={12} md={6} xl={7}>
+            <Col xs={12} md={6} xl={5}>
                 <TrackVisibility>
                 {({ isVisible }) =>
                     <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                        <h1>{`Hola! Soy Damián Arrieta.`}
-                        <br/>
-                        <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Developer"]'><span className="wrap">{text}</span></span></h1>
+                        <h1>{`Hola! Soy Damián Arrieta`}
+                        <br />
+                            <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Developer"]'>
+                            <span className="wrap">{text}</span>
+                            </span>
+                        </h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <div className="social-icon">
-                            <a href="#"><i class="bi bi-linkedin text-light"></i></a>
-                            <a href="#"><i class="bi bi-github text-light"></i></a>
-                        </div>
-                </div>}
+                        <a href={ CV } download>
+                            <button className="text-light" style={{ fontSize: '35px' }}>Descarga mi CV <i class="bi bi-file-earmark-arrow-down-fill"></i></button>
+                        </a>
+                    </div>}
                 </TrackVisibility>
             </Col>
             </Row>

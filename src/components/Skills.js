@@ -42,6 +42,18 @@ export const Skills = () => {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
+                                <img src={js} alt="JavaScript" />
+                                <h5 className='text-dark'>JavaScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={react} alt="React" />
+                                <h5 className='text-dark'>React</h5>
+                            </div>
+                            <div className="item">
+                                <img src={angular} alt="Angular" />
+                                <h5 className='text-dark'>Angular</h5>
+                            </div>
+                            <div className="item">
                                 <img src={html} alt="HTML" />
                                 <h5 className='text-dark'>HTML</h5>
                             </div>
@@ -54,24 +66,12 @@ export const Skills = () => {
                                 <h5 className='text-dark'>SASS</h5>
                             </div>
                             <div className="item">
-                                <img src={js} alt="JavaScript" />
-                                <h5 className='text-dark'>JavaScript</h5>
-                            </div>
-                            <div className="item">
                                 <img src={ts} alt="TypeScript" />
                                 <h5 className='text-dark'>TypeScript</h5>
                             </div>
                             <div className="item">
                                 <img src={bootstrap} alt="Bootstrap" />
                                 <h5 className='text-dark'>Bootstrap</h5>
-                            </div>
-                            <div className="item">
-                                <img src={react} alt="React" />
-                                <h5 className='text-dark'>React</h5>
-                            </div>
-                            <div className="item">
-                                <img src={angular} alt="Angular" />
-                                <h5 className='text-dark'>Angular</h5>
                             </div>
                             <div className="item">
                                 <img src={node} alt="Node" />

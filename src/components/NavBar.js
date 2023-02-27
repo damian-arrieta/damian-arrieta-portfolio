@@ -6,21 +6,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    }
-
-    window.addEventListener("scroll", onScroll);
-
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [])
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
@@ -28,7 +13,7 @@ export const NavBar = () => {
 
   return (
     <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="md">
         <Container>
           <Navbar.Brand href="/">
             <img style={{height: '40px', width:'250px'}} src={Logo} alt="logo" />
@@ -43,6 +28,10 @@ export const NavBar = () => {
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Proyectos</Nav.Link>
             </Nav>
             <span className="navbar-text">
+              <div className="social-icon">
+                <a href="#"><i class="bi bi-linkedin text-light"></i></a>
+                <a href="#"><i class="bi bi-github text-light"></i></a>
+              </div>
             </span>
           </Navbar.Collapse>
         </Container>
