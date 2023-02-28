@@ -29,8 +29,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><i class="bi bi-linkedin text-light"></i></a>
-                <a href="#"><i class="bi bi-github text-light"></i></a>
+                <a className='btn btn-outline-light btn-floating m-1' href="#"><i class="bi bi-linkedin text-light"></i></a>
+                <a className='btn btn-outline-light btn-floating m-1' href="#"><i class="bi bi-github text-light"></i></a>
               </div>
             </span>
           </Navbar.Collapse>
