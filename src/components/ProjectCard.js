@@ -7,8 +7,8 @@ export const ProjectCard = ({ title, description, imgUrl, urlDep, urlRep }) => {
         <img src={imgUrl} />
         <div className="proj-txtx">
           <div className="proj-links">
-            <a className='btn btn-outline-light btn-floating m-1' href={urlDep}>ir al deploy</a>
-            <a className='btn btn-outline-light btn-floating m-1' href={urlRep}>Ir al repositorio</a>
+            <a className='btn btn-outline-light btn-floating m-1' target="_blank" href={urlDep}>ir al deploy</a>
+            <a className='btn btn-outline-light btn-floating m-1' target="_blank" href={urlRep}>Ir al repositorio</a>
           </div>
           <div className="proj-description">
             <span className="text-dark">{description}</span>

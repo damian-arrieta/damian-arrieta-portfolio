@@ -198,13 +198,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 @keyframes updown {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-80px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(80px);
     }
     100% {
-        transform: translateY(-20px);
+        transform: translateY(-80px);
     }
 }
 .txt-rotate > .wrap {
@@ -261,7 +261,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
