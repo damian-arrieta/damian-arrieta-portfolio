@@ -39,7 +39,9 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2 className='text-dark'>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Estas son las habilidades que he desarrollado en mi carrera y que me permiten abordar de manera efectiva los desafíos en mi área de trabajo.
+                        <br></br>
+                        Además, estoy siempre dispuesto a aprender nuevas habilidades y a seguir formándome para estar al día con las tecnologías necesarias.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={js} alt="JavaScript" />
