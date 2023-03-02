@@ -73,8 +73,8 @@ export const Banner = () => {
                                 <button class="text-light" style={{ fontSize: '35px' }}>Descarga mi CV <i class="bi bi-file-earmark-arrow-down-fill"></i></button>
                             </a>
                             <div class="social-icon">
-                                <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/damian-arrieta/"><i class="bi bi-linkedin text-light"></i></a>
-                                <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/damian-arrieta"><i class="bi bi-github text-light"></i></a>
+                                <a class="btn btn-outline-light btn-floating m-1" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/damian-arrieta/"><i class="bi bi-linkedin text-light"></i></a>
+                                <a class="btn btn-outline-light btn-floating m-1" target="_blank" rel="noreferrer" href="https://github.com/damian-arrieta"><i class="bi bi-github text-light"></i></a>
                             </div>
                         </div>
                     </div>}
