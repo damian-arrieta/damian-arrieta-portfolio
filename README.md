@@ -27,9 +27,7 @@ Si tienes alguna pregunta o estás interesado/a en trabajar juntos, no dudes en 
 <h3> 🤝🏻 Contacto </h3>
 
 <p align="center">
-&nbsp; <a href="https://www.linkedin.com/in/damian-arrieta/" target="_blank" rel="noopener noreferrer">
-[![email-1.png](https://i.postimg.cc/gcKztqMf/email-1.png)](https://postimg.cc/8sjgjWgH)
-</a>
+&nbsp; <a href="https://www.linkedin.com/in/damian-arrieta/" target="_blank" rel="noopener noreferrer"><img src="https://postimg.cc/8sjgjWgH" /></a>
 &nbsp; <a href="mailto:arrdamian@icloud.com" target="_blank" rel="noopener noreferrer"><img src="https://postimg.cc/8sjgjWgH"  width="50" /></a>
 </p>
 
