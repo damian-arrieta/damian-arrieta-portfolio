@@ -169,17 +169,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .txt-rotate {
   color: #2e00fd;
 }
-@keyframes updown {
-    0% {
-        transform: translateY(-80px);
-    }
-    50% {
-        transform: translateY(80px);
-    }
-    100% {
-        transform: translateY(-80px);
-    }
-}
 @media (max-width: 425px) {
   .banner img {
     animation: none;

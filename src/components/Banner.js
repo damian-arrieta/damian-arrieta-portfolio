@@ -52,10 +52,9 @@ export const Banner = () => {
             <Row className="align-items-center">
             <Col xs={12} md={6} xl={6}>
                 <TrackVisibility>
-                {({ isVisible }) =>
-                    <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                    <div>
                         <img src={boy} alt="Damian Arrieta"/>
-                    </div>}
+                    </div>
                 </TrackVisibility>
             </Col>
             <Col xs={12} md={6} xl={6}>
