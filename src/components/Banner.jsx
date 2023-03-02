@@ -12,39 +12,58 @@ export const Banner = () => {
     const [index, setIndex] = useState(1);
     const toRotate = [ "Frontend Developer" ];
     const period = 2000;
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
     useEffect(() => {
         let ticker = setInterval(() => {
-        tick();
+            tick();
         }, delta);
 
-        return () => { clearInterval(ticker) };
-    }, [text])
+        return () => {
+            clearInterval(ticker);
+        };
+    }, [text]);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setScreenWidth(window.innerWidth);
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
 
     const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+        let updatedText = isDeleting
+            ? fullText.substring(0, text.length - 1)
+            : fullText.substring(0, text.length + 1);
 
         setText(updatedText);
 
         if (isDeleting) {
-        setDelta(prevDelta => prevDelta / 2);
+            setDelta((prevDelta) => prevDelta / 2);
         }
 
         if (!isDeleting && updatedText === fullText) {
-        setIsDeleting(true);
-        setIndex(prevIndex => prevIndex - 1);
-        setDelta(period);
+            setIsDeleting(true);
+            setIndex((prevIndex) => prevIndex - 1);
+            setDelta(period);
         } else if (isDeleting && updatedText === '') {
-        setIsDeleting(false);
-        setLoopNum(loopNum + 1);
-        setIndex(1);
-        setDelta(500);
+            setIsDeleting(false);
+            setLoopNum((loopNum) => loopNum + 1);
+            setIndex(1);
+            setDelta(500);
         } else {
-        setIndex(prevIndex => prevIndex + 1);
+            setIndex((prevIndex) => prevIndex + 1);
         }
-    }
+    };
+
+    const shouldAnimate = screenWidth >= 425;
 
     return (
         <section className="banner" id="home">
@@ -63,9 +82,10 @@ export const Banner = () => {
                     <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                         <h1>{`Hola! Soy Damián Arrieta`}
                         <br />
-                            <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Developer"]'>
+                            {shouldAnimate && <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Developer"]'>
                             <span className="wrap">{text}</span>
-                            </span>
+                            </span>}
+                            {!shouldAnimate && <span className="wrap">{toRotate[0]}</span>}
                         </h1>
                         <div className='container-btn'>
                             <a href={ CV } download>

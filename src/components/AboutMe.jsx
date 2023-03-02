@@ -6,7 +6,7 @@ export const AboutMe = () => {
                 <div className="col-12">
                     <div className="aboutme-bx wow zoomIn">
                         <h2 className='text-light'>Sobre Mi</h2>
-                        <p className="text-light text-start">Soy de Argentina ⭐⭐⭐
+                        <p className="text-light text-start">Argentino ⭐⭐⭐
                         <br />
                         <br />
                         Soy una persona con amplia experiencia en ventas y logística, donde trabajé como asesor comercial durante más de cinco años, logrando cumplir con objetivos y metas establecidas. Además, asumí la importante responsabilidad de liderar la gestión de la logística en diversas empresas, lo que me permitió desarrollar habilidades como la organización, la planificación y la solución de problemas de manera efectiva.

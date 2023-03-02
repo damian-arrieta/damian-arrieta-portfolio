@@ -163,16 +163,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   width: 96%;
 }
-.banner img {
-  animation: updown 3s linear infinite;
-}
 .banner .txt-rotate {
   color: #2e00fd;
 }
 @media (max-width: 425px) {
-  .banner img {
-    animation: none;
-  }
   .banner .align-items-center {
     flex-direction: column;
   }
