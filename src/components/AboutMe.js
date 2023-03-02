@@ -6,7 +6,12 @@ export const AboutMe = () => {
                 <div className="col-12">
                     <div className="aboutme-bx wow zoomIn">
                         <h2 className='text-light'>Sobre Mi</h2>
-                        <p className="text-light">Nací y vivo en la capital de la provincia de La Pampa, Argentina.<br /><br />
+                        <p className="text-light">⭐⭐⭐
+                        <br />
+                        Soy de Argentina
+                        <br />
+                        🇦🇷
+                        <br />
                         Soy una persona con amplia experiencia en ventas y logística, donde trabajé como asesor comercial durante más de cinco años, logrando cumplir con objetivos y metas establecidas. Además, asumí la importante responsabilidad de liderar la gestión de la logística en diversas empresas, lo que me permitió desarrollar habilidades como la organización, la planificación y la solución de problemas de manera efectiva.
                         <br /><br />
                         Sin embargo, recientemente he decidido dar un giro a mi carrera y enfocarme en mi verdadera pasión: la tecnología. Por ello, me encuentro inmerso en el mundo IT como Frontend Developer, adquiriendo conocimientos y habilidades en diferentes lenguajes y frameworks de Frontend para poder desarrollar soluciones tecnológicas innovadoras y atractivas para los clientes.
