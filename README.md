@@ -26,8 +26,7 @@ Si tienes alguna pregunta o estás interesado/a en trabajar juntos, no dudes en 
 
 <p align="center">
 
-[![mail](https://postimg.cc/8sjgjWgH)](mailto:arrdamian@icloud.com)
+&nbsp; <a href="https://www.linkedin.com/in/damian-arrieta/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="50" /></a>
+&nbsp; <a href="mailto:arrdamian@icloud.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="50" /></a>
 
-[![linkedin](/https://postimg.cc/HrWJyBYK)](https://www.linkedin.com/in/damian-arrieta/){target="_blank"}
-
-⭐️ From [Damian Arrieta](https://github.com/damian-arrieta/damian-arrieta){target="_blank"}
+⭐️ From [Damian Arrieta](https://github.com/damian-arrieta/damian-arrieta)
