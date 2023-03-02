@@ -16,8 +16,6 @@ Si tienes alguna pregunta o estás interesado/a en trabajar juntos, no dudes en 
 
 [![home.jpg](https://i.postimg.cc/PqMrwW8b/home.jpg)](https://postimg.cc/p9pHNnCy)
 
-[![sobremi.jpg](https://i.postimg.cc/rwX8Zn1C/sobremi.jpg)](https://postimg.cc/D86k8cY8)
-
 [![skills.jpg](https://i.postimg.cc/wMn6pFSz/skills.jpg)](https://postimg.cc/QKkLgg8Y)
 
 [![proyectos.jpg](https://i.postimg.cc/GhsLQwym/proyectos.jpg)](https://postimg.cc/0bP1k4nT)
@@ -27,8 +25,8 @@ Si tienes alguna pregunta o estás interesado/a en trabajar juntos, no dudes en 
 <h3> 🤝🏻 Contacto </h3>
 
 <p align="center">
-&nbsp; <a href="https://www.linkedin.com/in/damian-arrieta/" target="_blank" rel="noopener noreferrer"><img src="https://postimg.cc/8sjgjWgH" /></a>
-&nbsp; <a href="mailto:arrdamian@icloud.com" target="_blank" rel="noopener noreferrer"><img src="https://postimg.cc/8sjgjWgH"  width="50" /></a>
+&nbsp; <a href="https://www.linkedin.com/in/damian-arrieta/" target="_blank" rel="noopener noreferrer"><img src="https://iconos8.es/icon/102748/linkedin" /></a>
+&nbsp; <a href="mailto:arrdamian@icloud.com" target="_blank" rel="noopener noreferrer"><img src="https://iconos8.es/icon/61574/componer-correo"  width="50" /></a>
 </p>
 
 ⭐️ From [Damian Arrieta](https://github.com/damian-arrieta/damian-arrieta)
