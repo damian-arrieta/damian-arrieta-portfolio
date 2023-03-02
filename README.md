@@ -25,8 +25,9 @@ Si tienes alguna pregunta o estás interesado/a en trabajar juntos, no dudes en 
 <h3> 🤝🏻 Contacto </h3>
 
 <p align="center">
-&nbsp; <a href="https://www.linkedin.com/in/damian-arrieta/" target="_blank" rel="noopener noreferrer"><img src="https://iconos8.es/icon/102748/linkedin" /></a>
-&nbsp; <a href="mailto:arrdamian@icloud.com" target="_blank" rel="noopener noreferrer"><img src="https://iconos8.es/icon/61574/componer-correo"  width="50" /></a>
-</p>
+
+[![mail](https://img.icons8.com/ios/452/compose-email.png)](mailto:arrdamian@icloud.com)
+
+[![linkedin](https://iconos8.es/icon/102748/linkedin)](https://www.linkedin.com/in/damian-arrieta/)
 
 ⭐️ From [Damian Arrieta](https://github.com/damian-arrieta/damian-arrieta)
