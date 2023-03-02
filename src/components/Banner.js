@@ -49,12 +49,12 @@ export const Banner = () => {
     return (
         <section className="banner" id="home">
         <Container>
-            <Row className="aligh-items-center">
-            <Col xs={12} md={6} xl={5}>
+            <Row className="align-items-center">
+            <Col xs={12} md={6} xl={6}>
                 <TrackVisibility>
                 {({ isVisible }) =>
                     <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <img src={boy} alt="Header Img"/>
+                        <img src={boy} alt="Damian Arrieta"/>
                     </div>}
                 </TrackVisibility>
             </Col>
@@ -68,7 +68,7 @@ export const Banner = () => {
                             <span className="wrap">{text}</span>
                             </span>
                         </h1>
-                        <div class="container-btn">
+                        <div className='container-btn'>
                             <a href={ CV } download>
                                 <button class="text-light" style={{ fontSize: '35px' }}>Descarga mi CV <i class="bi bi-file-earmark-arrow-down-fill"></i></button>
                             </a>

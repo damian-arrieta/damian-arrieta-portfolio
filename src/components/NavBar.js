@@ -16,7 +16,7 @@ export const NavBar = () => {
       <Navbar expand="md">
         <Container>
           <Navbar.Brand href="/">
-            <img style={{height: '40px', width:'250px'}} src={Logo} alt="logo" />
+            <img style={{height: '40px', width:'250px'}} src={Logo} alt="Damian Arrieta logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>

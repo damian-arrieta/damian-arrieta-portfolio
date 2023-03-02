@@ -32,7 +32,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -40,7 +40,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Proyectos</h2>
-                <p className="text-light">Bienvenido a mi sección de proyectos! Aquí encontrarás una muestra de mis trabajos como desarrollador. Desde los primeros y pequeños hasta los actuales para que puedas ver mi crecimiento, cada uno de estos proyectos ha sido una oportunidad para desarrollar mis habilidades y conocimientos técnicos. Me apasiona encontrar soluciones creativas a los desafíos y desarrollar productos efectivos para los usuarios finales.</p>
+                <p className="text-light">Bienvenido a mi sección de proyectos! Aquí encontrarás una muestra de mis trabajos como desarrollador. Desde los primeros y pequeños hasta los mas actuales para que puedas ver mi crecimiento. Mi objetivo es encontrar soluciones creativas a los desafíos y desarrollar productos efectivos para los usuarios finales.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">

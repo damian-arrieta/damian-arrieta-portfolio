@@ -39,10 +39,10 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2 className='text-dark'>Skills</h2>
-                        <p>Estas son las habilidades que he desarrollado en mi carrera y que me permiten abordar de manera efectiva los desafíos en mi área de trabajo.
+                        <p>Para abordar de manera efectiva los desafíos de mi trabajo, desarrollé las siguientes habilidades.
                         <br></br>
-                        Además, estoy siempre dispuesto a aprender nuevas habilidades y a seguir formándome para estar al día con las tecnologías necesarias.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        Siempre estoy dispuesto a aprender sobre nuevas tecnologías.</p>
+                        <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={js} alt="JavaScript" />
                                 <h5 className='text-dark'>JavaScript</h5>

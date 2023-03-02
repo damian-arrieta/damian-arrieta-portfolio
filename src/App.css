@@ -146,9 +146,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 50px 0 100px 0;
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .banner h1 {
   font-size: 65px;
@@ -183,6 +180,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-80px);
     }
 }
+@media (max-width: 425px) {
+  .banner img {
+    animation: none;
+  }
+  .banner .align-items-center {
+    flex-direction: column;
+  }
+  .container-btn {
+    margin-top: 0;
+  }
+}
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
@@ -197,18 +205,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: center;
 }
-
 .social-icon a {
   margin: 0 10px;
 }
-
 .social-icon a::before {
   position: absolute;
   background-color: #ffffff;
   transform: scale(0);
   transition: 0.3s ease-in-out;
 }
-
 .social-icon a:hover::before {
   transform: scale(1);
 }
@@ -300,7 +305,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #dfd9f7 -5.91%, #2e00fd 111.58%);
+  background-color: #ffffff95;
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -368,21 +373,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer span img {
   width: 100%;
 }
-.container-footer {
+.footer .container-footer {
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.social-icon-footer {
-  margin-top: 20px;
+.footer .container-footer .social-icon-footer {
   display: flex;
   justify-content: center;
 }
-.social-icon-footer a {
-  margin: 0 10px;
-}
-.footer p {
+.footer .container-footer p {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.5px;
+}
+@media screen and (max-width: 425px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .tagline {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  .footer .container-footer {
+    margin: 0;
+  }
 }
