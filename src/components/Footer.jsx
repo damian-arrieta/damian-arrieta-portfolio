@@ -14,7 +14,7 @@ export const Footer = () => {
             <Col size={12} sm={6} className="text-center text-sm-end">
               <div class="container-footer">
                 <h3 className="text-dark">Contacto:</h3>
-                <p className="text-dark">arrdamian@icloud.com</p>
+                <p className="text-dark">contacto@damian-arrieta.com</p>
                 <div class="social-icon-footer">
                   <a class="btn btn-outline-dark btn-floating m-1" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/damian-arrieta/"><i class="bi bi-linkedin text-dark"></i></a>
                   <a class="btn btn-outline-dark btn-floating m-1" target="_blank" rel="noreferrer" href="https://github.com/damian-arrieta"><i class="bi bi-github text-dark"></i></a>
