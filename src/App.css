@@ -1,17 +1,17 @@
 /* Fonts */
 @font-face {
-	font-family: Centra;
+	font-family: Bebas;
 	src: url('./assets/fonts/BebasNeue\ Bold.ttf');
 	font-weight: 700;
 }
 @font-face {
-	font-family: Centra;
+	font-family: Bebas;
 	src: url('./assets/fonts/Bebas\ Neue\ Cyrillic.ttf');
 	font-weight: 500;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/fonts/BebasNeue-Regular.ttf');
+	font-family: Amiko;
+	src: url('./assets/fonts/Amiko-Regular.ttf');
 	font-weight: 400;
 }
 
@@ -33,7 +33,7 @@ body {
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'Bebas', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -147,6 +147,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 50px 0 100px 0;
 }
+
 .banner h1 {
   font-size: 65px;
   font-weight: 700;
@@ -216,10 +217,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .aboutme p {
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
+  font-family: 'Amiko';
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
 }
 
 /* Skills */
@@ -240,6 +242,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill p {
     color: #030303;
+    font-family: 'Amiko';
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -273,6 +276,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
+  font-family: 'Amiko';
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
