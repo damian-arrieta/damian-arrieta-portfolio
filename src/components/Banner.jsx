@@ -72,7 +72,7 @@ export const Banner = () => {
             <Col xs={12} md={6} xl={6}>
                 <TrackVisibility>
                     <div>
-                        <img src={boy} alt="Damian Arrieta"/>
+                        <img src="https://i.postimg.cc/P59b5M5N/imgcv-removebg.png" alt="Damian Arrieta"/>
                     </div>
                 </TrackVisibility>
             </Col>
