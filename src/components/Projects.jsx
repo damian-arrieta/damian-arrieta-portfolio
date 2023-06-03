@@ -26,8 +26,8 @@ export const Projects = () => {
       title: "Proyecto final React",
       description: "REACT, JAVASCRIPT, HTML, CSS, MATERIAL UI, BOOTSTRAP, FIREBASE",
       imgUrl: ImgProj3,
-      urlDep: "https://proyecto-final-five-sepia.vercel.app/",
-      urlRep: "https://github.com/damian-arrieta/react/tree/main/ProyectoFinal"
+      urlDep: "https://e-commerce-sepia-chi.vercel.app/",
+      urlRep: "https://github.com/damian-arrieta/e-commerce"
     }
   ];
 
