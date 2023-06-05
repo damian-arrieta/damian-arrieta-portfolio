@@ -3,17 +3,33 @@ import { ProjectCard } from "./ProjectCard";
 import ImgProj1 from '../assets/imgs/proyecto-dw.jpg'
 import ImgProj2 from '../assets/imgs/proyecto-js.jpg'
 import ImgProj3 from '../assets/imgs/proyecto-react.jpg'
+import ImgProj4 from '../assets/imgs/paula-rotundo-portfolio.jpg'
+import ImgProj5 from '../assets/imgs/devsafio.jpg'
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
   const projects = [
     {
-      title: "Proyecto Final Desarrollo Web",
-      description: "HTML, CSS, SASS, BOOTSTRAP",
-      imgUrl: ImgProj1,
-      urlDep: "https://damian-arrieta.github.io/proyecto-final/",
-      urlRep: "https://github.com/damian-arrieta/proyecto-final"
+      title: "Incubadora Devsafio LATAM",
+      description: "REACT, JAVASCRIPT, HTML, CSS, BOOTSTRAP, SASS, FIREBASE, DOCKER, SWEETALERT, NODE",
+      imgUrl: ImgProj5,
+      urlDep: "https://devsafio-nine.vercel.app/",
+      urlRep: "https://github.com/dlab-team/c7-frontend"
+    },
+    {
+      title: "Paula Rotundo Portfolio",
+      description: "REACT, JAVASCRIPT, HTML, CSS, BOOTSTRAP",
+      imgUrl: ImgProj4,
+      urlDep: "https://paularotundo.com/",
+      urlRep: "https://github.com/damian-arrieta/paula-rotundo-portfolio"
+    },
+    {
+      title: "Proyecto final React",
+      description: "REACT, JAVASCRIPT, HTML, CSS, MATERIAL UI, BOOTSTRAP, FIREBASE",
+      imgUrl: ImgProj3,
+      urlDep: "https://e-commerce-sepia-chi.vercel.app/",
+      urlRep: "https://github.com/damian-arrieta/e-commerce"
     },
     {
       title: "Proyecto Final JavaScript",
@@ -23,11 +39,11 @@ export const Projects = () => {
       urlRep: "https://github.com/damian-arrieta/proyectoFinalJavaScript"
     },
     {
-      title: "Proyecto final React",
-      description: "REACT, JAVASCRIPT, HTML, CSS, MATERIAL UI, BOOTSTRAP, FIREBASE",
-      imgUrl: ImgProj3,
-      urlDep: "https://e-commerce-sepia-chi.vercel.app/",
-      urlRep: "https://github.com/damian-arrieta/e-commerce"
+      title: "Proyecto Final Desarrollo Web",
+      description: "HTML, CSS, SASS, BOOTSTRAP",
+      imgUrl: ImgProj1,
+      urlDep: "https://damian-arrieta.github.io/proyecto-final-desarrollo-web/",
+      urlRep: "https://github.com/damian-arrieta/proyecto-final-desarrollo-web"
     }
   ];
 
