@@ -11,7 +11,7 @@ export const AboutMe = () => {
                         <br />
                         Soy una persona con amplia experiencia en ventas y logística, donde trabajé como asesor comercial durante más de cinco años, logrando cumplir con objetivos y metas establecidas. Además, asumí la importante responsabilidad de liderar la gestión de la logística en diversas empresas, lo que me permitió desarrollar habilidades como la organización, la planificación y la solución de problemas de manera efectiva.
                         <br /><br />
-                        Sin embargo, recientemente he decidido dar un giro a mi carrera y enfocarme en mi verdadera pasión: la tecnología. Por ello, me encuentro inmerso en el mundo IT como Frontend Developer, adquiriendo conocimientos y habilidades en diferentes lenguajes y frameworks de Frontend para poder desarrollar soluciones tecnológicas innovadoras y atractivas para los clientes.
+                        Sin embargo, he decidido dar un giro a mi carrera y enfocarme en el rubro de la tecnología. Por ello, me encuentro inmerso en el mundo IT como Desarrollador Frontend, donde estoy en constante crecimiento en conocimientos y habilidades de diferentes lenguajes y frameworks para poder desarrollar soluciones tecnológicas innovadoras y atractivas para los clientes.
                         <br /><br />
                         A lo largo de mi trayectoria laboral aprendí a comprender las necesidades del cliente, así como también a conocer sobre flujos y procesos. Estas habilidades, sumadas a mi capacidad de trabajar en equipo, de adaptarme a nuevas situaciones y de ser proactivo, me convierten en un candidato ideal para integrar un grupo de trabajo profesional de desarrollo.
                         <br /><br />
